@@ -68,7 +68,7 @@ const embeddings = new SentenceTransformerEmbeddings(modelName);
 
 // Chroma vector store with updated configuration
 const vectorStore = new Chroma(embeddings, {
-  collectionName: "news_chroma_db",
+  collectionName: "news_articles",
   url: "http://localhost:8000",
   embeddingFunction: embeddings // Explicitly set embedding function
 });
