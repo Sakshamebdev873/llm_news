@@ -9,8 +9,9 @@ import hashlib
 import json
 import torch
 import logging
+import time
 
-# Configure logging (set to DEBUG for category and selector debugging)
+# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -21,9 +22,6 @@ class EfficientNewsScraper:
         
         # Initialize ChromaDB
         self.client = chromadb.PersistentClient(path="./news_chroma_db")
-        
-        # Reset collection to avoid format conflicts (optional: comment out if migrating)
-        # self.client.delete_collection(name="news_articles")
         
         # Create collection
         self.collection = self.client.get_or_create_collection(
@@ -53,7 +51,7 @@ class EfficientNewsScraper:
             "bbc_live": {
                 "url": "https://www.bbc.com/live",
                 "selectors": {
-                    "container": '.sc-225578b-0.btdqbl',  # Parent container classes
+                    "container": '.sc-225578b-0.btdqbl',
                     "headline": '.sc-88db9cf0-13.juUQAL',
                     "description": '.sc-88db9cf0-14.bWanPM',
                     "link": '.sc-8a623a54-0.hMvGwj',
@@ -72,7 +70,7 @@ class EfficientNewsScraper:
         logger.info("EfficientNewsScraper initialized with CPU-only models")
 
     def migrate_categories(self):
-        """Migrate existing JSON-serialized categories to comma-separated string"""
+        """Migrate existing JSON-serialized or comma-separated categories to single category string"""
         logger.info("Migrating categories in ChromaDB...")
         results = self.collection.get(include=["metadatas"])
         ids = results["ids"]
@@ -81,11 +79,21 @@ class EfficientNewsScraper:
         updated_metadatas = []
         for metadata in metadatas:
             try:
-                categories = json.loads(metadata["categories"])
-                metadata["categories"] = ",".join([cat["category"] for cat in categories])
+                categories = metadata.get("categories", "")
+                if categories.startswith("["):  # JSON-serialized array
+                    category_list = json.loads(categories)
+                    if category_list:
+                        metadata["categories"] = category_list[0]["category"]
+                    else:
+                        metadata["categories"] = "general"
+                elif "," in categories:  # Comma-separated string
+                    metadata["categories"] = categories.split(",")[0]
+                elif not categories:  # Empty or missing
+                    metadata["categories"] = "general"
                 updated_metadatas.append(metadata)
             except Exception as e:
                 logger.warning(f"Failed to migrate metadata for article: {e}")
+                metadata["categories"] = "general"
                 updated_metadatas.append(metadata)
 
         if updated_metadatas:
@@ -108,31 +116,29 @@ class EfficientNewsScraper:
         return self.embedding_model.encode(text, convert_to_tensor=False).tolist()
 
     def categorize_article(self, text, batch_mode=False):
-        """Efficient categorization with batch processing"""
+        """Assign single category with highest confidence"""
         if not text.strip() or len(text.split()) < 3:
-            return [{"category": "general", "confidence": 1.0}]
+            return {"category": "general", "confidence": 1.0}
         
         try:
             result = self.categorizer(
                 text,
                 candidate_labels=self.categories,
-                multi_label=True,
+                multi_label=False,
                 hypothesis_template="This text is about {}."
             )
             
-            categories = []
-            for label, score in zip(result['labels'], result['scores']):
-                if score > 0.25:
-                    categories.append({
-                        "category": label, 
-                        "confidence": round(float(score), 2)
-                    })
+            top_category = result['labels'][0]
+            top_score = result['scores'][0]
             
-            return categories[:2]
+            return {
+                "category": top_category,
+                "confidence": round(float(top_score), 2)
+            }
             
         except Exception as e:
             logger.warning(f"Categorization failed: {e}")
-            return [{"category": "general", "confidence": 1.0}]
+            return {"category": "general", "confidence": 1.0}
 
     def scrape_website(self, url, selectors, limit=None):
         """Scrape website using class-based selectors without card parent"""
@@ -153,13 +159,11 @@ class EfficientNewsScraper:
             soup = BeautifulSoup(html, "html.parser")
             items = []
             
-            # Find containers (parent elements with specific classes)
             containers = soup.select(selectors["container"])[:limit]
             logger.debug(f"Found {len(containers)} containers for {url}")
 
             for container in containers:
                 try:
-                    # Extract elements within container
                     headline_elem = container.select_one(selectors["headline"])
                     headline = headline_elem.get_text(strip=True) if headline_elem else "No headline"
                     
@@ -216,9 +220,9 @@ class EfficientNewsScraper:
             
             try:
                 for j, text in enumerate(batch_texts):
-                    categories = self.categorize_article(text)
-                    batch_articles[j]['categories'] = categories
-                    logger.debug(f"Article '{batch_articles[j]['headline'][:50]}...' categorized as: {categories}")
+                    category = self.categorize_article(text)
+                    batch_articles[j]['categories'] = category
+                    logger.debug(f"Article '{batch_articles[j]['headline'][:50]}...' categorized as: {category}")
                     categorized_articles.append(batch_articles[j])
                     
             except Exception as e:
@@ -251,7 +255,7 @@ class EfficientNewsScraper:
                 "image": article.get('image', '')[:200],
                 "source": article['source'],
                 "scraped_at": article['scraped_at'],
-                "categories": ",".join([cat["category"] for cat in article.get('categories', [])]),
+                "categories": article.get('categories', {}).get('category', 'general'),
                 "text_length": len(doc_text)
             })
 
@@ -282,10 +286,8 @@ class EfficientNewsScraper:
                     processed_articles = self.process_articles_batch(articles)
                     self.store_in_chromadb(processed_articles)
                     all_articles.extend(processed_articles)
-                    
                     logger.info(f"Added {len(processed_articles)} articles from {site_name}")
                 
-                import time
                 time.sleep(1)
                 
             except Exception as e:
@@ -295,44 +297,19 @@ class EfficientNewsScraper:
         return all_articles
 
     def search_articles(self, query, limit=5, category_filter=None):
-        """Efficient search with optional category filtering and multi-term scoring"""
-        query_terms = query.split(" AND ") if " AND " in query else [query]
-        results = {"metadatas": [[]], "distances": [[]], "scores": []}
-
-        for term in query_terms:
-            query_embedding = self.generate_embedding(term)
-            where_filter = None
-            if category_filter:
-                where_filter = {"categories": {"$eq": category_filter}}
-            
-            term_results = self.collection.query(
-                query_embeddings=[query_embedding],
-                n_results=limit * 2,
-                where=where_filter,
-                include=["metadatas", "distances"]
-            )
-            
-            for metadata, distance in zip(term_results['metadatas'][0], term_results['distances'][0]):
-                article_id = metadata.get('url', '') + metadata.get('headline', '')
-                if not any(m.get('url', '') + m.get('headline', '') == article_id for m in results['metadatas'][0]):
-                    results['metadatas'][0].append(metadata)
-                    results['distances'][0].append(distance)
-                    score = 1.0 / (distance + 0.001)
-                    results['scores'].append(score)
-
-        for i, metadata in enumerate(results['metadatas'][0]):
-            article_text = f"{metadata['headline']} {metadata['description']}".lower()
-            matches = sum(1 for term in query_terms if term.lower() in article_text)
-            results['scores'][i] *= (1 + 0.5 * matches)
-
-        sorted_results = sorted(
-            zip(results['metadatas'][0], results['distances'][0], results['scores']),
-            key=lambda x: x[2],
-            reverse=True
+        """Efficient search with optional category filtering"""
+        query_embedding = self.generate_embedding(query)
+        where_filter = None
+        if category_filter:
+            where_filter = {"categories": {"$eq": category_filter}}
+        
+        results = self.collection.query(
+            query_embeddings=[query_embedding],
+            n_results=limit,
+            where=where_filter,
+            include=["metadatas", "distances"]
         )
-        results['metadatas'][0] = [m for m, _, _ in sorted_results][:limit]
-        results['distances'][0] = [d for _, d, _ in sorted_results][:limit]
-
+        
         return results
 
     def get_memory_usage(self):
@@ -359,29 +336,15 @@ def main():
     logger.info(f"Total articles processed: {len(articles)}")
     
     logger.info("Inspecting stored articles in ChromaDB:")
-    results = scraper.collection.query(query_texts=["sports"], n_results=5)
+    results = scraper.search_articles("sports", limit=5, category_filter="sports")
     for i, metadata in enumerate(results['metadatas'][0]):
-        logger.info(f"Stored article {i+1}: {metadata['headline']} (Source: {metadata['source']}, Categories: {metadata['categories']})")
-    
-    if articles:
-        results = scraper.search_articles(
-            "sports",
-            limit=5,
-            category_filter="sports"
-        )
-        logger.info("Search results sample:")
-        valid_categories = ["sports"]
-        filtered_results = [
-            m for m in results['metadatas'][0]
-            if any(cat in m['categories'].split(",") for cat in valid_categories)
-        ]
-        for i, metadata in enumerate(filtered_results[:5]):
-            logger.info(f"{i+1}. {metadata['headline']} (Source: {metadata['source']}, Categories: {metadata['categories']})")
+        logger.info(f"Stored article {i+1}: {metadata['headline']} (Source: {metadata['source']}, Category: {metadata['categories']})")
     
     with open('efficient_articles.json', 'w', encoding='utf-8') as f:
         json.dump(articles, f, indent=2, ensure_ascii=False)
     
     logger.info("Scraping completed successfully!")
+
 if __name__ == "__main__":
     main()
 

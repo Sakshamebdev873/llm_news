@@ -1,214 +1,146 @@
 [
   {
-    "headline": "Transfer news: Reaction as Isak breaks silence",
-    "description": "All the latest transfer news as Newcastle forward Alexander Isak says promises have been \"broken\" by the club as he looks to force through an exit.",
-    "url": "https://www.bbc.com/sport/football/live/clyr1x3veymt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e86d/live/8e8f20c0-7d91-11f0-83cc-c5da98c419b8.jpg.webp",
+    "headline": "Hundreds of thousands of students to find out GCSE results",
+    "description": "Students in England, Wales and Northern Ireland will receive GCSE, BTecs and Cambridge Nationals results from 08:00 BST.",
+    "url": "https://www.bbc.com/news/live/cy08y5zxe0lt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9b52/live/a75ddd50-7e52-11f0-a34f-318be3fb0481.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.333244",
-    "categories": [
-      {
-        "category": "crime",
-        "confidence": 0.47
-      },
-      {
-        "category": "politics",
-        "confidence": 0.38
-      }
-    ]
+    "scraped_at": "2025-08-21T11:33:52.763528",
+    "categories": {
+      "category": "tech",
+      "confidence": 0.23
+    }
   },
   {
-    "headline": "Images show IDF vehicles near Gaza City, and asylum seeker housing data in the UK",
-    "description": "Latest updates from the BBC's specialists in fact-checking, verifying video and tackling disinformation.",
-    "url": "https://www.bbc.com/news/live/cj9w8d1zyndt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9ed3/live/a540d580-7da9-11f0-ab3e-bd52082cd0ae.png.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.334698",
-    "categories": [
-      {
-        "category": "crime",
-        "confidence": 0.56
-      },
-      {
-        "category": "world news",
-        "confidence": 0.54
-      }
-    ]
-  },
-  {
-    "headline": "Watch live as entire church is moved across Swedish city in two-day journey",
-    "description": "The landmark 113-year-old church is at risk from ground subsidence and is being moved 5km (3 miles) on giant trailers.",
-    "url": "https://www.bbc.com/news/live/cy98grgwwz3t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/31f7/live/3d8882f0-7d8e-11f0-83cc-c5da98c419b8.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.336029",
-    "categories": [
-      {
-        "category": "crime",
-        "confidence": 0.44
-      },
-      {
-        "category": "environment",
-        "confidence": 0.41
-      }
-    ]
-  },
-  {
-    "headline": "UK inflation rises by more than expected to 3.8%, largely driven by air fares",
-    "description": "Inflation is at its highest level since January 2024 and still far above the Bank of England's target of 2%.",
-    "url": "https://www.bbc.com/news/live/cp895dyj046t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9c9c/live/63076630-7d8f-11f0-87b6-779c3192f4ca.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.337230",
-    "categories": [
-      {
-        "category": "economy",
-        "confidence": 0.52
-      },
-      {
-        "category": "world news",
-        "confidence": 0.26
-      }
-    ]
-  },
-  {
-    "headline": "Racing Club v Peñarol",
-    "description": "Follow live text commentary, score updates and match stats from Racing Club vs Peñarol in the CONMEBOL Libertadores",
-    "url": "https://www.bbc.com/sport/football/live/cvgvrpj2ky1t",
+    "headline": "Millonarios v Unión Magdalena",
+    "description": "Follow live text commentary, score updates and match stats from Millonarios vs Unión Magdalena in the Primera A",
+    "url": "https://www.bbc.com/sport/football/live/cx2359jddp4t",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.338432",
-    "categories": [
-      {
-        "category": "sports",
-        "confidence": 1.0
-      },
-      {
-        "category": "entertainment",
-        "confidence": 0.47
-      }
-    ]
+    "scraped_at": "2025-08-21T11:33:52.764703",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.14
+    }
   },
   {
-    "headline": "São Paulo v Atlético Nacional",
-    "description": "Follow live text commentary, score updates and match stats from São Paulo vs Atlético Nacional in the CONMEBOL Libertadores",
-    "url": "https://www.bbc.com/sport/football/live/cq58qwnv315t",
+    "headline": "Internacional v Flamengo",
+    "description": "Follow live text commentary, score updates and match stats from Internacional vs Flamengo in the CONMEBOL Libertadores",
+    "url": "https://www.bbc.com/sport/football/live/cwy0vd7jjxkt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.339678",
-    "categories": [
-      {
-        "category": "sports",
-        "confidence": 0.89
-      },
-      {
-        "category": "politics",
-        "confidence": 0.5
-      }
-    ]
+    "scraped_at": "2025-08-21T11:33:52.765780",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.34
+    }
   },
   {
-    "headline": "Independiente Santa Fe v Envigado",
-    "description": "Follow live text commentary, score updates and match stats from Independiente Santa Fe vs Envigado in the Primera A",
-    "url": "https://www.bbc.com/sport/football/live/cgqnzvwx5xqt",
+    "headline": "Estudiantes v Cerro Porteño",
+    "description": "Follow live text commentary, score updates and match stats from Estudiantes vs Cerro Porteño in the CONMEBOL Libertadores",
+    "url": "https://www.bbc.com/sport/football/live/cy0qpyexd5wt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.341196",
-    "categories": [
-      {
-        "category": "crime",
-        "confidence": 0.39
-      },
-      {
-        "category": "politics",
-        "confidence": 0.34
-      }
-    ]
+    "scraped_at": "2025-08-21T11:33:52.766862",
+    "categories": {
+      "category": "entertainment",
+      "confidence": 0.14
+    }
   },
   {
-    "headline": "Vélez Sarsfield v Fortaleza",
-    "description": "Follow live text commentary, score updates and match stats from Vélez Sarsfield vs Fortaleza in the CONMEBOL Libertadores",
-    "url": "https://www.bbc.com/sport/football/live/c0j9d2dn9xpt",
+    "headline": "Juventude v Vasco da Gama",
+    "description": "Follow live text commentary, score updates and match stats from Juventude vs Vasco da Gama in the Serie A",
+    "url": "https://www.bbc.com/sport/football/live/ce8362r7kj2t",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.342454",
-    "categories": [
-      {
-        "category": "sports",
-        "confidence": 0.56
-      },
-      {
-        "category": "politics",
-        "confidence": 0.35
-      }
-    ]
+    "scraped_at": "2025-08-21T11:33:52.768113",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.14
+    }
   },
   {
-    "headline": "Walsall 0-1 Grimsby Town",
-    "description": "Evan Khouri rewrote a tale of two goalkeepers as Grimsby moved up to second in League Two following a 1-0 win at Walsall.",
-    "url": "https://www.bbc.com/sport/football/live/c74djrjm7e7t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e0e8/live/172c44e0-7c15-11f0-83cc-c5da98c419b8.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.343701",
-    "categories": [
-      {
-        "category": "sports",
-        "confidence": 0.34
-      },
-      {
-        "category": "entertainment",
-        "confidence": 0.26
-      }
-    ]
-  },
-  {
-    "headline": "Ferencváros v Qarabağ",
-    "description": "Follow live text commentary, score updates and match stats from Ferencváros vs Qarabağ in the UEFA Champions League",
-    "url": "https://www.bbc.com/sport/football/live/c3r4j2jw032t",
+    "headline": "Fenerbahçe v Benfica",
+    "description": "Follow live text commentary, score updates and match stats from Fenerbahçe vs Benfica in the UEFA Champions League",
+    "url": "https://www.bbc.com/sport/football/live/c78z3jp2gjjt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.344943",
-    "categories": [
-      {
-        "category": "sports",
-        "confidence": 0.34
-      }
-    ]
+    "scraped_at": "2025-08-21T11:33:52.769541",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.79
+    }
   },
   {
-    "headline": "Red Star Belgrade v Pafos",
-    "description": "Follow live text commentary, score updates and match stats from Red Star Belgrade vs Pafos in the UEFA Champions League",
-    "url": "https://www.bbc.com/sport/football/live/cjw69p94xwyt",
+    "headline": "Bodø / Glimt v Sturm Graz",
+    "description": "Follow live text commentary, score updates and match stats from Bodø / Glimt vs Sturm Graz in the UEFA Champions League",
+    "url": "https://www.bbc.com/sport/football/live/cvg3j8629njt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.346175",
-    "categories": [
-      {
-        "category": "sports",
-        "confidence": 0.47
-      },
-      {
-        "category": "entertainment",
-        "confidence": 0.31
-      }
-    ]
+    "scraped_at": "2025-08-21T11:33:52.770738",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.26
+    }
   },
   {
-    "headline": "Davies strikes late as Cardiff break Wimbledon resistance",
-    "description": "Isaak Davies turns in a dramatic late winner as Cardiff City break Wimbledon's resistance to continue their unbeaten start under new boss Brian Barry-Murphy.",
-    "url": "https://www.bbc.com/sport/football/live/ckgdzpzrl65t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5680/live/cc8618f0-7d3e-11f0-ab3e-bd52082cd0ae.jpg.webp",
+    "headline": "Basel v København",
+    "description": "Follow live text commentary, score updates and match stats from Basel vs København in the UEFA Champions League",
+    "url": "https://www.bbc.com/sport/football/live/c07p5834rv0t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-20T15:26:53.347757",
-    "categories": [
-      {
-        "category": "politics",
-        "confidence": 0.65
-      },
-      {
-        "category": "crime",
-        "confidence": 0.48
-      }
-    ]
+    "scraped_at": "2025-08-21T11:33:52.771825",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.23
+    }
+  },
+  {
+    "headline": "Notts County 4-1 Shrewsbury Town",
+    "description": "Goals from Matthew Dennis, Sonny Aljofree, Nick Tsaroulla and Conor Grant sparks Notts County's season into life as they beat Shrewsbury 4-1 at Meadow Lane.",
+    "url": "https://www.bbc.com/sport/football/live/ceqy1r34z03t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/74a2/live/ac0b3530-7e04-11f0-ab50-1bd1cf07c8be.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-21T11:33:52.772949",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.19
+    }
+  },
+  {
+    "headline": "Boreham Wood 2-1 Braintree Town",
+    "description": "Luke Norris takes his tally to four goals in two matches as Boreham Wood beat Braintree Town 2-1 at home in the National League.",
+    "url": "https://www.bbc.com/sport/football/live/cy087xrejrgt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/068b/live/14fe2e60-7c22-11f0-a34f-318be3fb0481.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-21T11:33:52.774107",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.16
+    }
+  },
+  {
+    "headline": "Southend United 0-0 York City",
+    "description": "Southend United's winning start to the National League season ends after a goalless draw with York City at Roots Hall.",
+    "url": "https://www.bbc.com/sport/football/live/cdj28lv170lt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f725/live/ea1a4d90-7c22-11f0-ab3e-bd52082cd0ae.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-21T11:33:52.775258",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.3
+    }
+  },
+  {
+    "headline": "Rochdale 4-0 Gateshead",
+    "description": "Mani Dieseruvwe scores his third goal of the National League season as Rochdale climb to the top of the table after a 4-0 drubbing of Gateshead.",
+    "url": "https://www.bbc.com/sport/football/live/cd0dk291pvvt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3339/live/48986440-7dd8-11f0-a34f-318be3fb0481.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-21T11:33:52.776413",
+    "categories": {
+      "category": "tech",
+      "confidence": 0.29
+    }
   }
 ]
