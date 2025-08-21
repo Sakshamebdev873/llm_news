@@ -1,26 +1,26 @@
 [
   {
-    "headline": "Hundreds of thousands of students to find out GCSE results",
-    "description": "Students in England, Wales and Northern Ireland will receive GCSE, BTecs and Cambridge Nationals results from 08:00 BST.",
-    "url": "https://www.bbc.com/news/live/cy08y5zxe0lt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9b52/live/a75ddd50-7e52-11f0-a34f-318be3fb0481.jpg.webp",
+    "headline": "Transfer news: Arsenal to beat Spurs to Eze signing - latest, your views & analysis",
+    "description": "All the latest transfer news as Arsenal set to beat Tottenham in the pursuit of Crystal Palace star Eberechi Eze.",
+    "url": "https://www.bbc.com/sport/football/live/c79l5q5rx15t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9784/live/d96988b0-7dff-11f0-a34f-318be3fb0481.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.763528",
+    "scraped_at": "2025-08-21T13:20:54.912790",
     "categories": {
-      "category": "tech",
-      "confidence": 0.23
+      "category": "world news",
+      "confidence": 0.28
     }
   },
   {
-    "headline": "Millonarios v Unión Magdalena",
-    "description": "Follow live text commentary, score updates and match stats from Millonarios vs Unión Magdalena in the Primera A",
-    "url": "https://www.bbc.com/sport/football/live/cx2359jddp4t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "headline": "Hundreds of thousands of students opening GCSE results",
+    "description": "Students in England, Wales and Northern Ireland will receive GCSE, BTecs and Cambridge Nationals results from 08:00 BST.",
+    "url": "https://www.bbc.com/news/live/cy08y5zxe0lt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cd64/live/ebe67520-7e5e-11f0-90b7-f1a1efbee763.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.764703",
+    "scraped_at": "2025-08-21T13:20:54.913920",
     "categories": {
-      "category": "sports",
-      "confidence": 0.14
+      "category": "tech",
+      "confidence": 0.29
     }
   },
   {
@@ -29,10 +29,22 @@
     "url": "https://www.bbc.com/sport/football/live/cwy0vd7jjxkt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.765780",
+    "scraped_at": "2025-08-21T13:20:54.914890",
     "categories": {
       "category": "sports",
       "confidence": 0.34
+    }
+  },
+  {
+    "headline": "Millonarios v Unión Magdalena",
+    "description": "Follow live text commentary, score updates and match stats from Millonarios vs Unión Magdalena in the Primera A",
+    "url": "https://www.bbc.com/sport/football/live/cx2359jddp4t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-21T13:20:54.915835",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.14
     }
   },
   {
@@ -41,7 +53,7 @@
     "url": "https://www.bbc.com/sport/football/live/cy0qpyexd5wt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.766862",
+    "scraped_at": "2025-08-21T13:20:54.916792",
     "categories": {
       "category": "entertainment",
       "confidence": 0.14
@@ -53,7 +65,7 @@
     "url": "https://www.bbc.com/sport/football/live/ce8362r7kj2t",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.768113",
+    "scraped_at": "2025-08-21T13:20:54.917744",
     "categories": {
       "category": "sports",
       "confidence": 0.14
@@ -65,7 +77,7 @@
     "url": "https://www.bbc.com/sport/football/live/c78z3jp2gjjt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.769541",
+    "scraped_at": "2025-08-21T13:20:54.918686",
     "categories": {
       "category": "sports",
       "confidence": 0.79
@@ -77,7 +89,7 @@
     "url": "https://www.bbc.com/sport/football/live/cvg3j8629njt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.770738",
+    "scraped_at": "2025-08-21T13:20:54.922017",
     "categories": {
       "category": "sports",
       "confidence": 0.26
@@ -89,7 +101,7 @@
     "url": "https://www.bbc.com/sport/football/live/c07p5834rv0t",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.771825",
+    "scraped_at": "2025-08-21T13:20:54.923092",
     "categories": {
       "category": "sports",
       "confidence": 0.23
@@ -101,7 +113,7 @@
     "url": "https://www.bbc.com/sport/football/live/ceqy1r34z03t",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/74a2/live/ac0b3530-7e04-11f0-ab50-1bd1cf07c8be.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.772949",
+    "scraped_at": "2025-08-21T13:20:54.924081",
     "categories": {
       "category": "sports",
       "confidence": 0.19
@@ -113,7 +125,7 @@
     "url": "https://www.bbc.com/sport/football/live/cy087xrejrgt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/068b/live/14fe2e60-7c22-11f0-a34f-318be3fb0481.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.774107",
+    "scraped_at": "2025-08-21T13:20:54.925044",
     "categories": {
       "category": "sports",
       "confidence": 0.16
@@ -125,22 +137,10 @@
     "url": "https://www.bbc.com/sport/football/live/cdj28lv170lt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f725/live/ea1a4d90-7c22-11f0-ab3e-bd52082cd0ae.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.775258",
+    "scraped_at": "2025-08-21T13:20:54.926000",
     "categories": {
       "category": "sports",
       "confidence": 0.3
-    }
-  },
-  {
-    "headline": "Rochdale 4-0 Gateshead",
-    "description": "Mani Dieseruvwe scores his third goal of the National League season as Rochdale climb to the top of the table after a 4-0 drubbing of Gateshead.",
-    "url": "https://www.bbc.com/sport/football/live/cd0dk291pvvt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3339/live/48986440-7dd8-11f0-a34f-318be3fb0481.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T11:33:52.776413",
-    "categories": {
-      "category": "tech",
-      "confidence": 0.29
     }
   }
 ]

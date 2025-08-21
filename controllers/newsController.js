@@ -95,17 +95,46 @@ const askNews =async (req, res) => {
     }
 
     // Ask Gemini to classify the category
-    const categoryPrompt = `Identify the category of this news query in ONE word (like sports, crime, politics, tech, business, etc). No other text. Query: "${lowerQuestion}"`;
-    
+    // Ask Gemini to plan retrieval strategy (agent-style)
+const categoryPrompt = `
+You are a planner agent. Based on the user query: "${lowerQuestion}", 
+decide the retrieval strategy and output ONLY valid JSON with these keys:
+
+{
+  "category": "sports | politics | business | tech | general | crime | health",
+  "time": "today" | "any",
+  "use_web_fallback": true | false
+}
+
+Rules:
+- If query clearly matches one of the categories, choose it. Else use "general".
+- If query mentions "today" or "latest", set time = "today".
+- If the query seems very recent, global, or unlikely in DB, set use_web_fallback = true.
+- Respond ONLY with JSON, no explanation.
+`;
+
     let category = '';
     try {
       const gemini_response = await geminiModel.invoke(categoryPrompt);
       
-      if (typeof gemini_response === "string") {
-        category = gemini_response.trim().toLowerCase();
-      } else if (gemini_response?.content) {
-        category = gemini_response.content.toString().trim().toLowerCase();
-      }
+      let plan = {};
+try {
+  let raw = typeof gemini_response === "string" 
+    ? gemini_response 
+    : gemini_response?.content?.toString() || "";
+
+  raw = raw.replace(/```json/gi, "")
+           .replace(/```/g, "")
+           .trim();
+
+  plan = JSON.parse(raw);
+  category = plan.category?.toLowerCase() || "general";
+} catch (err) {
+  console.error("Failed to parse Gemini plan:", err, gemini_response);
+  plan = { category: "general", time: "any", use_web_fallback: false };
+  category = "general";
+}
+
       
       console.log("Detected category:", category);
     } catch (error) {
