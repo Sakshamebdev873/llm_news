@@ -57,7 +57,7 @@ class EfficientNewsScraper:
                     "link": '.sc-8a623a54-0.hMvGwj',
                     "image": '.sc-d1200759-0.dvfjxj'
                 },
-                "limit": 12
+                "limit": 50
             }
         }
         
@@ -268,7 +268,7 @@ class EfficientNewsScraper:
         
         logger.info(f"Stored {len(articles)} articles in ChromaDB")
 
-    def scrape_all_websites(self, max_articles_per_site=12):
+    def scrape_all_websites(self, max_articles_per_site=50):
         """Scrape all websites with resource limits"""
         all_articles = []
         
@@ -326,7 +326,7 @@ def main():
     start_memory = scraper.get_memory_usage()
     logger.info(f"Initial memory usage: {start_memory:.2f} MB")
     
-    articles = scraper.scrape_all_websites(max_articles_per_site=12)
+    articles = scraper.scrape_all_websites(max_articles_per_site=50)
     if not articles:
         logger.warning("No articles were scraped from any websites.")
     

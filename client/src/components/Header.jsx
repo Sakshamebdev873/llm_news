@@ -19,7 +19,7 @@ export default function App() {
     setPlan(null);
 
     try {
-      const res = await fetch("http://localhost:5100/api/v1/query", {
+      const res = await fetch("http://localhost:5000/api/ask-news", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),

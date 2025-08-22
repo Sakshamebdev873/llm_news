@@ -1,146 +1,602 @@
 [
   {
-    "headline": "Transfer news: Arsenal to beat Spurs to Eze signing - latest, your views & analysis",
-    "description": "All the latest transfer news as Arsenal set to beat Tottenham in the pursuit of Crystal Palace star Eberechi Eze.",
-    "url": "https://www.bbc.com/sport/football/live/c79l5q5rx15t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9784/live/d96988b0-7dff-11f0-a34f-318be3fb0481.jpg.webp",
+    "headline": "Listen: Australia v South Africa - second ODI",
+    "description": "Listen to ABC Grandstand commentary as Australia face South Africa in the second of three ODIs in Mackay.",
+    "url": "https://www.bbc.com/sport/cricket/live/c7766gnljngt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ff02/live/16995d20-7da9-11f0-83cc-c5da98c419b8.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.912790",
-    "categories": {
-      "category": "world news",
-      "confidence": 0.28
-    }
-  },
-  {
-    "headline": "Hundreds of thousands of students opening GCSE results",
-    "description": "Students in England, Wales and Northern Ireland will receive GCSE, BTecs and Cambridge Nationals results from 08:00 BST.",
-    "url": "https://www.bbc.com/news/live/cy08y5zxe0lt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/cd64/live/ebe67520-7e5e-11f0-90b7-f1a1efbee763.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.913920",
-    "categories": {
-      "category": "tech",
-      "confidence": 0.29
-    }
-  },
-  {
-    "headline": "Internacional v Flamengo",
-    "description": "Follow live text commentary, score updates and match stats from Internacional vs Flamengo in the CONMEBOL Libertadores",
-    "url": "https://www.bbc.com/sport/football/live/cwy0vd7jjxkt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.914890",
+    "scraped_at": "2025-08-22T11:28:44.418199",
     "categories": {
       "category": "sports",
-      "confidence": 0.34
+      "confidence": 0.13
     }
   },
   {
-    "headline": "Millonarios v Unión Magdalena",
-    "description": "Follow live text commentary, score updates and match stats from Millonarios vs Unión Magdalena in the Primera A",
-    "url": "https://www.bbc.com/sport/football/live/cx2359jddp4t",
+    "headline": "River Plate v Libertad",
+    "description": "Follow live text commentary, score updates and match stats from River Plate vs Libertad in the CONMEBOL Libertadores",
+    "url": "https://www.bbc.com/sport/football/live/czr64px6zrjt",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.915835",
+    "scraped_at": "2025-08-22T11:28:44.419383",
     "categories": {
       "category": "sports",
-      "confidence": 0.14
+      "confidence": 0.22
     }
   },
   {
-    "headline": "Estudiantes v Cerro Porteño",
-    "description": "Follow live text commentary, score updates and match stats from Estudiantes vs Cerro Porteño in the CONMEBOL Libertadores",
-    "url": "https://www.bbc.com/sport/football/live/cy0qpyexd5wt",
+    "headline": "Palmeiras v Universitario",
+    "description": "Follow live text commentary, score updates and match stats from Palmeiras vs Universitario in the CONMEBOL Libertadores",
+    "url": "https://www.bbc.com/sport/football/live/cm21jd01gd8t",
     "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.916792",
-    "categories": {
-      "category": "entertainment",
-      "confidence": 0.14
-    }
-  },
-  {
-    "headline": "Juventude v Vasco da Gama",
-    "description": "Follow live text commentary, score updates and match stats from Juventude vs Vasco da Gama in the Serie A",
-    "url": "https://www.bbc.com/sport/football/live/ce8362r7kj2t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.917744",
-    "categories": {
-      "category": "sports",
-      "confidence": 0.14
-    }
-  },
-  {
-    "headline": "Fenerbahçe v Benfica",
-    "description": "Follow live text commentary, score updates and match stats from Fenerbahçe vs Benfica in the UEFA Champions League",
-    "url": "https://www.bbc.com/sport/football/live/c78z3jp2gjjt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.918686",
-    "categories": {
-      "category": "sports",
-      "confidence": 0.79
-    }
-  },
-  {
-    "headline": "Bodø / Glimt v Sturm Graz",
-    "description": "Follow live text commentary, score updates and match stats from Bodø / Glimt vs Sturm Graz in the UEFA Champions League",
-    "url": "https://www.bbc.com/sport/football/live/cvg3j8629njt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.922017",
-    "categories": {
-      "category": "sports",
-      "confidence": 0.26
-    }
-  },
-  {
-    "headline": "Basel v København",
-    "description": "Follow live text commentary, score updates and match stats from Basel vs København in the UEFA Champions League",
-    "url": "https://www.bbc.com/sport/football/live/c07p5834rv0t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.923092",
-    "categories": {
-      "category": "sports",
-      "confidence": 0.23
-    }
-  },
-  {
-    "headline": "Notts County 4-1 Shrewsbury Town",
-    "description": "Goals from Matthew Dennis, Sonny Aljofree, Nick Tsaroulla and Conor Grant sparks Notts County's season into life as they beat Shrewsbury 4-1 at Meadow Lane.",
-    "url": "https://www.bbc.com/sport/football/live/ceqy1r34z03t",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/74a2/live/ac0b3530-7e04-11f0-ab50-1bd1cf07c8be.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.924081",
-    "categories": {
-      "category": "sports",
-      "confidence": 0.19
-    }
-  },
-  {
-    "headline": "Boreham Wood 2-1 Braintree Town",
-    "description": "Luke Norris takes his tally to four goals in two matches as Boreham Wood beat Braintree Town 2-1 at home in the National League.",
-    "url": "https://www.bbc.com/sport/football/live/cy087xrejrgt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/068b/live/14fe2e60-7c22-11f0-a34f-318be3fb0481.jpg.webp",
-    "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.925044",
+    "scraped_at": "2025-08-22T11:28:44.420484",
     "categories": {
       "category": "sports",
       "confidence": 0.16
     }
   },
   {
-    "headline": "Southend United 0-0 York City",
-    "description": "Southend United's winning start to the National League season ends after a goalless draw with York City at Roots Hall.",
-    "url": "https://www.bbc.com/sport/football/live/cdj28lv170lt",
-    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f725/live/ea1a4d90-7c22-11f0-ab3e-bd52082cd0ae.jpg.webp",
+    "headline": "LDU Quito v Botafogo",
+    "description": "Follow live text commentary, score updates and match stats from LDU Quito vs Botafogo in the CONMEBOL Libertadores",
+    "url": "https://www.bbc.com/sport/football/live/c74d1pn7pm1t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
     "source": "https://www.bbc.com/live",
-    "scraped_at": "2025-08-21T13:20:54.926000",
+    "scraped_at": "2025-08-22T11:28:44.421562",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.14
+    }
+  },
+  {
+    "headline": "Raków Częstochowa v Arda Kardzhali",
+    "description": "Follow live text commentary, score updates and match stats from Raków Częstochowa vs Arda Kardzhali in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c23pedm93v1t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.422663",
+    "categories": {
+      "category": "entertainment",
+      "confidence": 0.15
+    }
+  },
+  {
+    "headline": "Santa Clara v Shamrock Rovers",
+    "description": "Follow live text commentary, score updates and match stats from Santa Clara vs Shamrock Rovers in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c1dxzwe9vkzt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.423753",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.94
+    }
+  },
+  {
+    "headline": "Lincoln Red Imps v Sporting Braga",
+    "description": "Follow live text commentary, score updates and match stats from Lincoln Red Imps vs Sporting Braga in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/c17nxkr2lqnt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.424852",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.98
+    }
+  },
+  {
+    "headline": "Rijeka v PAOK",
+    "description": "Follow live text commentary, score updates and match stats from Rijeka vs PAOK in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/cx2x3ve1ld9t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.425942",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.22
+    }
+  },
+  {
+    "headline": "Lech Poznań v Genk",
+    "description": "Follow live text commentary, score updates and match stats from Lech Poznań vs Genk in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/c15l7jn2gpgt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.427037",
     "categories": {
       "category": "sports",
       "confidence": 0.3
+    }
+  },
+  {
+    "headline": "Scrum V The Warm Up: The World Cup preview",
+    "description": "Lauren Jenkins is joined by Philippa Tuttiett, Alisha Joyce-Butchers and Ellis Jenkins to preview Wales’s opening game against Scotland in the Rugby World Cup.",
+    "url": "https://www.bbc.com/sport/rugby-union/live/cvg4kxne2k9t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b633/live/2d560b50-7ea6-11f0-83cc-c5da98c419b8.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.428142",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.25
+    }
+  },
+  {
+    "headline": "Shelbourne beat 10-man Linfield in chaotic first leg",
+    "description": "Shelbourne have a two-goal advantage heading into the second leg of their Uefa Conference League play-off tie after a thrilling 3-1 first leg win against 10-man Linfield at Tolka Park.",
+    "url": "https://www.bbc.com/sport/football/live/crm4dykpw39t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b664/live/1146bf50-7ecd-11f0-b30f-b9c0098f6de3.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.429246",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.14
+    }
+  },
+  {
+    "headline": "Jagiellonia Białystok v Dinamo City",
+    "description": "Follow live text commentary, score updates and match stats from Jagiellonia Białystok vs Dinamo City in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c8e19z6jz24t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.430326",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.44
+    }
+  },
+  {
+    "headline": "Lausanne-Sport v Beşiktaş",
+    "description": "Follow live text commentary, score updates and match stats from Lausanne-Sport vs Beşiktaş in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c209gvn3vvpt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.431718",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.98
+    }
+  },
+  {
+    "headline": "Slovan Bratislava v Young Boys",
+    "description": "Follow live text commentary, score updates and match stats from Slovan Bratislava vs Young Boys in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/clyjzkv9yy9t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.432929",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.32
+    }
+  },
+  {
+    "headline": "Strasbourg v Brøndby",
+    "description": "Follow live text commentary, score updates and match stats from Strasbourg vs Brøndby in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/cly453gpl1zt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.434121",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.36
+    }
+  },
+  {
+    "headline": "Breidablik v Virtus",
+    "description": "Follow live text commentary, score updates and match stats from Breidablik vs Virtus in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c707rpnvz7wt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.435325",
+    "categories": {
+      "category": "tech",
+      "confidence": 0.18
+    }
+  },
+  {
+    "headline": "Anderlecht v AEK Athens",
+    "description": "Follow live text commentary, score updates and match stats from Anderlecht vs AEK Athens in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c8908zp3w79t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.436507",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.21
+    }
+  },
+  {
+    "headline": "Panathinaikos v Samsunspor",
+    "description": "Follow live text commentary, score updates and match stats from Panathinaikos vs Samsunspor in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/c0e9d0q7elxt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.437686",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.3
+    }
+  },
+  {
+    "headline": "Drita v Differdange 03",
+    "description": "Follow live text commentary, score updates and match stats from Drita vs Differdange 03 in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/czd0g6y7zept",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.438866",
+    "categories": {
+      "category": "entertainment",
+      "confidence": 0.16
+    }
+  },
+  {
+    "headline": "Zrinjski v Utrecht",
+    "description": "Follow live text commentary, score updates and match stats from Zrinjski vs Utrecht in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/c70x9p673wjt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.440041",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.27
+    }
+  },
+  {
+    "headline": "Neman Grodno v Rayo Vallecano",
+    "description": "Follow live text commentary, score updates and match stats from Neman Grodno vs Rayo Vallecano in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c17nxkrv17vt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.441219",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.15
+    }
+  },
+  {
+    "headline": "Shkendija v Ludogorets Razgrad",
+    "description": "Follow live text commentary, score updates and match stats from Shkendija vs Ludogorets Razgrad in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/cwy5lq62vpvt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.442377",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.43
+    }
+  },
+  {
+    "headline": "Levski Sofia v AZ",
+    "description": "Follow live text commentary, score updates and match stats from Levski Sofia vs AZ in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/cd7y4qgjq0gt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.443543",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.45
+    }
+  },
+  {
+    "headline": "Polissya v Fiorentina",
+    "description": "Follow live text commentary, score updates and match stats from Polissya vs Fiorentina in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/cdxyewkd1qzt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.444722",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.17
+    }
+  },
+  {
+    "headline": "Shakhtar Donetsk v Servette",
+    "description": "Follow live text commentary, score updates and match stats from Shakhtar Donetsk vs Servette in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c74d1pn74pdt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.445880",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.25
+    }
+  },
+  {
+    "headline": "Olimpija v Noah",
+    "description": "Follow live text commentary, score updates and match stats from Olimpija vs Noah in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/cj3l84j74x2t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.447110",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.5
+    }
+  },
+  {
+    "headline": "Sparta Prague v Riga",
+    "description": "Follow live text commentary, score updates and match stats from Sparta Prague vs Riga in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/cj3l84jp50dt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.448289",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.54
+    }
+  },
+  {
+    "headline": "Celje v Baník Ostrava",
+    "description": "Follow live text commentary, score updates and match stats from Celje vs Baník Ostrava in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/clyvd0gr42xt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.449464",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.2
+    }
+  },
+  {
+    "headline": "Maccabi Tel Aviv v Dynamo Kyiv",
+    "description": "Follow live text commentary, score updates and match stats from Maccabi Tel Aviv vs Dynamo Kyiv in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/c0mlper2nk2t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.450656",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.88
+    }
+  },
+  {
+    "headline": "Listen: Super League - Leeds Rhinos v Hull KR",
+    "description": "Listen to live local radio commentaries as Leeds Rhinos take on Hull KR in the Super League.",
+    "url": "https://www.bbc.com/sport/rugby-league/live/c1jn88pzk07t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7ea0/live/87f4c060-7da7-11f0-ab3e-bd52082cd0ae.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.451854",
+    "categories": {
+      "category": "entertainment",
+      "confidence": 0.28
+    }
+  },
+  {
+    "headline": "Aberdeen come from two down to draw Europa League qualifier with 10-man FCSB",
+    "description": "Substitutes Dante Polvara and Ester Sokler help revive Aberdeen's Europa League hopes as they come from two goals down to draw with 10-man Romanian champions FCSB.",
+    "url": "https://www.bbc.com/sport/football/live/cqjygn7prq4t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/30f6/live/74927ce0-7ed0-11f0-b30f-b9c0098f6de3.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.453053",
+    "categories": {
+      "category": "politics",
+      "confidence": 0.12
+    }
+  },
+  {
+    "headline": "Late goal against Legia Warsaw keeps Hibs' Conference League hopes alive",
+    "description": "Josh Mulligan's late strike resuscitates Hibernian's hopes of progressing to the Conference League as they emerge from the first leg of their play-off with Legia Warsaw at Easter Road trailing 2-1.",
+    "url": "https://www.bbc.com/sport/football/live/cz71nx084ypt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6115/live/f1962920-7ed1-11f0-b30f-b9c0098f6de3.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.454249",
+    "categories": {
+      "category": "politics",
+      "confidence": 0.15
+    }
+  },
+  {
+    "headline": "Palace beat Fredrikstad in Conference League play-off first leg",
+    "description": "Jean-Philippe Mateta scores Crystal Palace's first European goal in Conference League play-offs first-leg victory.",
+    "url": "https://www.bbc.com/sport/football/live/cx2xd8r32v4t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7eb8/live/cc619fe0-7ed1-11f0-b30f-b9c0098f6de3.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.455447",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.15
+    }
+  },
+  {
+    "headline": "İstanbul Başakşehir v Universitatea Craiova",
+    "description": "Follow live text commentary, score updates and match stats from İstanbul Başakşehir vs Universitatea Craiova in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/cr74lyz1k05t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.456721",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.18
+    }
+  },
+  {
+    "headline": "The Hundred: Invincibles pull off amazing chase of 172 to beat Rockets",
+    "description": "Follow live text and radio commentary as Oval Invincibles face Trent Rockets in the men's Hundred.",
+    "url": "https://www.bbc.com/sport/cricket/live/cjwqjvz88g9t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a0f2/live/20295a80-7eca-11f0-b30f-b9c0098f6de3.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.458033",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.41
+    }
+  },
+  {
+    "headline": "Győri ETO v Rapid Vienna",
+    "description": "Follow live text commentary, score updates and match stats from Győri ETO vs Rapid Vienna in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c80dxzkmne0t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.459298",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.19
+    }
+  },
+  {
+    "headline": "Häcken v CFR Cluj",
+    "description": "Follow live text commentary, score updates and match stats from Häcken vs CFR Cluj in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c8deyz1lnnyt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.460552",
+    "categories": {
+      "category": "tech",
+      "confidence": 0.22
+    }
+  },
+  {
+    "headline": "Malmö FF v Sigma Olomouc",
+    "description": "Follow live text commentary, score updates and match stats from Malmö FF vs Sigma Olomouc in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/crm4dykpwwxt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.461918",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.22
+    }
+  },
+  {
+    "headline": "Wolfsberger AC v Omonia Nicosia",
+    "description": "Follow live text commentary, score updates and match stats from Wolfsberger AC vs Omonia Nicosia in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c0ql5kg2zlxt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.463260",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.19
+    }
+  },
+  {
+    "headline": "Hamrun Spartans v Rīgas FS",
+    "description": "Follow live text commentary, score updates and match stats from Hamrun Spartans vs Rīgas FS in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/c0j9e076ywyt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.464455",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.42
+    }
+  },
+  {
+    "headline": "Brann v AEK Larnaca",
+    "description": "Follow live text commentary, score updates and match stats from Brann vs AEK Larnaca in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/cdd3582p7qrt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.465656",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.22
+    }
+  },
+  {
+    "headline": "Midtjylland v KuPS",
+    "description": "Follow live text commentary, score updates and match stats from Midtjylland vs KuPS in the UEFA Europa League",
+    "url": "https://www.bbc.com/sport/football/live/cm2v1dkrdeet",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.466853",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.18
+    }
+  },
+  {
+    "headline": "Rosenborg v Mainz 05",
+    "description": "Follow live text commentary, score updates and match stats from Rosenborg vs Mainz 05 in the UEFA Conference League",
+    "url": "https://www.bbc.com/sport/football/live/ckg4m57e81pt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5e08/live/008791f0-4235-11f0-835b-310c7b938e84.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.468062",
+    "categories": {
+      "category": "entertainment",
+      "confidence": 0.42
+    }
+  },
+  {
+    "headline": "The Hundred: Rockets beat Invincibles to avoid elimination",
+    "description": "Follow live text and radio commentary as Oval Invincibles face Trent Rockets in the women's Hundred.",
+    "url": "https://www.bbc.com/sport/cricket/live/cwy74nxg0w7t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8241/live/b31cded0-7ea6-11f0-96de-5db50e919182.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.469290",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.33
+    }
+  },
+  {
+    "headline": "Watch as wind and waves from Hurricane Erin pound the US east coast",
+    "description": "The storm could bring \"life-threatening surf and rip currents\" and potential flooding, officials say, as the category two hurricane churns north just off shore.",
+    "url": "https://www.bbc.com/news/live/cj6y09225k0t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3a20/live/c28edc00-7e93-11f0-a34f-318be3fb0481.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.470504",
+    "categories": {
+      "category": "environment",
+      "confidence": 0.26
+    }
+  },
+  {
+    "headline": "Listen: One-Day Cup - Sussex Sharks v Somerset",
+    "description": "Listen to BBC Radio 5 Sports Extra commentary as Sussex Sharks take on Somerset in the One-Day Cup.",
+    "url": "https://www.bbc.com/sport/cricket/live/cd9jkkxl88vt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f925/live/219e0560-7da7-11f0-a34f-318be3fb0481.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.471725",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.98
+    }
+  },
+  {
+    "headline": "US national Aimee Betro jailed for 30 years over failed Birmingham assassination",
+    "description": "Betro was convicted of conspiracy to murder after trying to shoot a man in Birmingham following a feud.",
+    "url": "https://www.bbc.com/news/live/c78mj29yz24t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0c78/live/23e12ab0-7dbf-11f0-a34f-318be3fb0481.png.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.472948",
+    "categories": {
+      "category": "crime",
+      "confidence": 0.77
+    }
+  },
+  {
+    "headline": "Number of asylum seekers in hotels up 8% in past year, but falls slightly since March",
+    "description": "The total number of asylum claims hit 111,000 in the year ending in June 2025 - higher than the previous peak of 103,000 in 2002.",
+    "url": "https://www.bbc.com/news/live/ce83n80dqllt",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/dc63/live/d734deb0-7e5d-11f0-83cc-c5da98c419b8.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.474164",
+    "categories": {
+      "category": "world news",
+      "confidence": 0.18
+    }
+  },
+  {
+    "headline": "Premier League news conferences: Frimpong suffers hamstring injury",
+    "description": "All the latest from Premier League news conferences as Chelsea manager Enzo Maresca speaks before Arne Slot, Unai Emery and others.",
+    "url": "https://www.bbc.com/sport/football/live/c79l5q5rx15t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a9a8/live/bd267550-7e90-11f0-83cc-c5da98c419b8.jpg.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.475465",
+    "categories": {
+      "category": "sports",
+      "confidence": 0.79
+    }
+  },
+  {
+    "headline": "Tracking IDF build-up near Gaza City, and viral Cristiano Ronaldo photo is AI fake",
+    "description": "Latest updates from the BBC's specialists in fact-checking, verifying video and tackling disinformation.",
+    "url": "https://www.bbc.com/news/live/ce3jg32g440t",
+    "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d6d5/live/55f252a0-7e90-11f0-ab3e-bd52082cd0ae.png.webp",
+    "source": "https://www.bbc.com/live",
+    "scraped_at": "2025-08-22T11:28:44.476791",
+    "categories": {
+      "category": "tech",
+      "confidence": 0.23
     }
   }
 ]
